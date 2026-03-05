@@ -57,7 +57,7 @@
     background:
       radial-gradient(ellipse 60% 50% at 80% 20%, var(--glow1), transparent),
       radial-gradient(ellipse 40% 40% at 10% 80%, var(--glow2), transparent),
-      radial-gradient(ellipse 30% 30% at 50% 60%, var(--glow3), transparent);
+      radial-gradient(ellipse 20% 20% at 10% 80%, rgba(252,92,125,0.08), transparent),
   }
 
   .hero-badge {
