@@ -1189,7 +1189,7 @@
 <footer>
   <div class="wrap">
     <div class="logo-text">AI × SMM</div>
-    <p style="margin-top: 8px;"> Blashkova Alina </p>
+    <p style="margin-top: 8px;"> Created by Blashkova Alina </p>
 <p style="margin-top: 8px;">Telegram: @trigalina</p>
   </div>
 </footer>
