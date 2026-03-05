@@ -294,10 +294,10 @@
     white-space: nowrap;
   }
   td { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: top; }
-  tr:last-child td { border-bottom: none; }
-  tr:hover td { background: rgba(255,255,255,0.02); }
+ td { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: top; color: #e8e4ff; 
+  tr:last-child td { border-bottom: none; color: #d4cff0; }
   .cal-day { font-weight: 600; white-space: nowrap; }
-  .cal-format {
+.cal-day { font-weight: 600; white-space: nowrap; color: #ffffff; }
     display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px;
     border-radius: 6px; white-space: nowrap;
   }
