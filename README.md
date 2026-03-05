@@ -55,10 +55,10 @@
   .hero-bg {
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse 70% 60% at 75% 15%, rgba(124,92,252,0.35), transparent),
+    radial-gradient(ellipse 70% 60% at 75% 15%, rgba(124,92,252,0.15), transparent),
     radial-gradient(ellipse 50% 45% at 20% 85%, rgba(92,248,200,0.15), transparent),
     radial-gradient(ellipse 20% 20% at 10% 80%, rgba(252,92,125,0.15), transparent),
-    radial-gradient(ellipse 40% 35% at 50% 55%, rgba(92,184,252,0.18), transparent);
+    radial-gradient(ellipse 40% 35% at 50% 55%, rgba(92,184,252,0.1), transparent);
   }
 
   .hero-badge {
