@@ -294,10 +294,10 @@
     white-space: nowrap;
   }
   td { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: top; }
- td { padding: 14px 16px; border-bottom: 1px solid rgba(255,255,255,0.04); vertical-align: top; color: #e8e4ff; 
-  tr:last-child td { border-bottom: none; color: #d4cff0; }
+ tr:last-child td { border-bottom: none; }
+  tr:hover td { background: rgba(255,255,255,0.02); }
   .cal-day { font-weight: 600; white-space: nowrap; }
-.cal-day { font-weight: 600; white-space: nowrap; color: #ffffff; }
+  .cal-format {
     display: inline-block; font-size: 11px; font-weight: 600; padding: 2px 8px;
     border-radius: 6px; white-space: nowrap;
   }
@@ -764,117 +764,11 @@
 
 <div class="divider"></div>
 
-<!-- КОНТЕНТ-ПЛАН -->
-<section>
-  <div class="wrap">
-    <div class="section-label">Шаг 4 — Контент-план</div>
-    <h2 class="section-title">Недельный календарь публикаций</h2>
-    <p class="section-desc">Типовой шаблон недели: какой контент, в какой день, какими AI-инструментами создавать.</p>
-
-    <div class="cal-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>День</th>
-            <th>Тема</th>
-            <th>Формат</th>
-            <th>Цель</th>
-            <th>AI-инструменты</th>
-            <th>Площадка</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="cal-day">Пн</td>
-            <td>Полезный контент / лайфхак</td>
-            <td><span class="cal-format fmt-post">📝 Пост-карточка</span></td>
-            <td>Охват, сохранения</td>
-            <td>
-              <span class="ai-chip">🧠 ChatGPT</span>
-              <span class="ai-chip">🍌 Nano Banana</span>
-            </td>
-            <td>Instagram, VK</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Вт</td>
-            <td>За кулисами бренда / команда</td>
-            <td><span class="cal-format fmt-story">📱 Stories</span></td>
-            <td>Вовлечение, доверие</td>
-            <td>
-              <span class="ai-chip">🧠 ChatGPT</span>
-              <span class="ai-chip">🎨 Midjourney</span>
-            </td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Ср</td>
-            <td>Тренд / Актуальная тема</td>
-            <td><span class="cal-format fmt-reel">🎬 Reel</span></td>
-            <td>Вирусность, охват</td>
-            <td>
-              <span class="ai-chip">🎨 Midjourney</span>
-              <span class="ai-chip">🎬 Kling AI</span>
-              <span class="ai-chip">🎵 Suno</span>
-            </td>
-            <td>Instagram, TikTok</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Чт</td>
-            <td>Экспертный материал / гайд</td>
-            <td><span class="cal-format fmt-article">📰 Статья/Пост</span></td>
-            <td>Авторитет</td>
-            <td>
-              <span class="ai-chip">✍️ Claude</span>
-              <span class="ai-chip">🍌 Nano Banana</span>
-            </td>
-            <td>Блог, Telegram</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Пт</td>
-            <td>Продуктовый контент / оффер</td>
-            <td><span class="cal-format fmt-post">📝 Промо-пост</span></td>
-            <td>Продажи, лиды</td>
-            <td>
-              <span class="ai-chip">🧠 ChatGPT</span>
-              <span class="ai-chip">🎨 Midjourney</span>
-            </td>
-            <td>Instagram, VK</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Сб</td>
-            <td>Интерактив / опрос / UGC</td>
-            <td><span class="cal-format fmt-story">📱 Stories+опрос</span></td>
-            <td>Вовлечение, обратная связь</td>
-            <td>
-              <span class="ai-chip">🧠 ChatGPT</span>
-            </td>
-            <td>Instagram</td>
-          </tr>
-          <tr>
-            <td class="cal-day">Вс</td>
-            <td>Вдохновляющий / lifestyle</td>
-            <td><span class="cal-format fmt-video">🎬 Short-video</span></td>
-            <td>Эмоции</td>
-            <td>
-              <span class="ai-chip">🎨 Midjourney</span>
-              <span class="ai-chip">🎬 Kling AI</span>
-              <span class="ai-chip">🎵 Suno</span>
-              <span class="ai-chip">🎙 ElevenLabs</span>
-            </td>
-            <td>Instagram, TikTok</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-  </div>
-</section>
-
-<div class="divider"></div>
 
 <!-- СОВЕТЫ -->
 <section>
   <div class="wrap">
-    <div class="section-label">Шаг 5 — Советы и ошибки</div>
+    <div class="section-label">Шаг 4 — Советы и ошибки</div>
     <h2 class="section-title">Что важно помнить</h2>
     <p class="section-desc">Частые ошибки новичков и главные принципы работы с AI-контентом.</p>
 
@@ -972,7 +866,7 @@
 <!-- ПРОМПТЫ ДЛЯ ГЕНЕРАЦИИ ИЗОБРАЖЕНИЙ -->
 <section>
   <div class="wrap">
-    <div class="section-label">Шаг 6 — Библиотека промптов для визуала</div>
+    <div class="section-label">Шаг 5 — Библиотека промптов для визуала</div>
     <h2 class="section-title">Готовые промпты для<br><span style="background: linear-gradient(135deg, var(--accent4), var(--accent2)); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">генерации изображений</span></h2>
     <p class="section-desc">Скопируй, подставь свои данные в {фигурных скобках} — и отправь в Midjourney или Nano Banana.</p>
 
